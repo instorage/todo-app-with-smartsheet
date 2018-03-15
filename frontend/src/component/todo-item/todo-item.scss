@@ -1,0 +1,21 @@
+  .todo-item {
+    width: 400px;
+    border-bottom: 1px solid black;
+    background: #ddd;
+    position: relative;
+    div {
+      display: inline-block;
+      &.checkbox-status {      
+        margin-right: 10px;
+      }
+    }
+    p {
+      margin: 2px;
+      padding: 0;
+    }
+    .remove-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
